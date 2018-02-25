@@ -1,0 +1,34 @@
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead, tbody {
+    display: block;
+}
+tbody {
+    overflow-y: scroll;
+    height: 300px;
+}
+th {
+    background-color: #ccc;
+}
+th, td {
+    border: 1px solid #666;
+    padding: 5px;
+    width: 150px;    
+}
+
+div.left_float{
+    float: left;
+}
+div.right_float{
+    float: right;
+}
+h2 {
+    clear: both;
+    }
+
+/* div{
+    clear: both;
+} */
